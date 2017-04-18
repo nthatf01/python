@@ -12,7 +12,7 @@ def collatz(number):
         else:
             number = 3 * number + 1
             
-        print(number)
+        print(int(number))
 
 #Collect user input
 userInput = input()
