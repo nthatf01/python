@@ -3,4 +3,4 @@ def collatz(number):
         print(number)
         number = 1
 
-collatz(7)
+collatz(input())
