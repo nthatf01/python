@@ -13,3 +13,8 @@ for i in range(len(grid)):
         print(grid[i][j], end = '')
     print('')
 
+for i in range(len(grid[0])):
+    for j in range(8):
+        print(grid[j][i], end = '')
+    print('')
+
